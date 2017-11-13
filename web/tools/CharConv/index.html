@@ -1,0 +1,140 @@
+<HTML>
+ <HEAD>
+  <TITLE>tranXform/tools/CharConv</TITLE>
+  <LINK href="../../CSS/default.css" type=text/css rel=stylesheet>
+  <style type="text/css">
+.style1 {
+    color: #3333CC;
+}
+
+</style>
+ </HEAD>
+
+<BODY>
+
+<p>
+ <hr color=#3333cc size=2>
+ <strong><font><span class="style1">CharConv</span><em style="COLOR: #3333cc"> - 
+Text transformation based on character set mapping</em></font></strong>
+ <hr color=#3333cc size=2>
+</p>
+
+<p>
+Windows and Microsoft Word GUI for Text transformation given character set mapping (from/to) and calculation of mapping given matching (portions of) source and target text.<br />
+Useful for decyphering copy-pasted text from PDF documents that ends-up with strange character swaps in it due to encoding reasons
+</p>
+
+<p>
+<b>Download:</b> <a href="CharConv_20100930.zip">CharConv_20100930.zip</a>
+</p>
+
+<p>
+<b>Instructions:</b><br>
+Either run the .exe file from the "Delphi" or "Lazarus" subfolders (note that the 2nd one is much bigger, so prefer the 1st one), or open the .doc file from "Microsoft Word" and when prompted about macro security select to allow the script in the document file to execute
+</p>
+
+<p>
+<b>Requirements:</b> if you try the .DOC file you must allow Word's macro security to enable the script for that version to run (this is also needed to be able to see the script and edit it)
+</p>
+
+<p><b>Source code:</b></p>
+<p>Source code (Object Pascal) is in "Delphi" and "Lazarus" projects (same code) and in the "Microsoft Word" folder (Visual Basic for Applications [VBA]).</p>
+<p>
+The Object Pascal (.PAS file) and the Visual Basic for Application (.DOC) file logic is similar.<br />
+Following is the VBA code (can use Developer/Visual Basic toolbar in Word to see/edit it and Design mode to edit the GUI properties):
+</p>
+<p>
+<indent><b><pre>
+'//Description: Text converter
+'//Author: George Birbilis (birbilis@kagi.com)
+
+'//Messages//
+
+Sub msgDifferentLayout()
+ MsgBox "Source and Target must have identical layout to resync the mapping"
+End Sub
+
+Sub msgNonReversibleMapping(cFrom As String, cTo As String, cOther As String)
+ MsgBox "Char [" + cTo + "] is already in 'To' field, but mapped to char [" + cOther + "] at the 'From' field. Added again to map to [" + cFrom + "]. This is a non reversible (1-1) mapping"
+End Sub
+
+'//Actions//
+
+Function pos(s2 As String, s1 As String) As Integer 'Pascal-style search
+ pos = InStr(1, s1, s2, vbBinaryCompare)
+End Function
+
+Sub UpdateWideCharMapping(cFrom As String, cTo As String)
+ Dim p As Integer
+ 
+ If pos(cFrom, txtFrom.Text) = 0 Then
+  txtFrom.Text = txtFrom.Text + cFrom
+  p = pos(cTo, txtTo.Text)
+  If (p <> 0) Then
+   msgNonReversibleMapping cFrom, cTo, Mid(txtFrom.Text, p, 1)
+  End If
+  txtTo.Text = txtTo.Text + cTo
+ End If
+End Sub
+
+Sub UpdateMapping()
+ Dim i As Integer
+ Dim s1 As String
+ Dim s2 As String
+ 
+ s1 = txtSource.Text
+ s2 = txtTarget.Text
+
+ If (txtSource.LineCount <> txtTarget.LineCount) Or _
+    (Len(s1) <> Len(s2)) Then
+  msgDifferentLayout
+ Else
+  For i = 1 To Len(s1)
+   UpdateWideCharMapping Mid(s1, i, 1), Mid(s2, i, 1)
+  Next i
+ End If
+End Sub
+
+Function convertWideChars(s As String, fromChars As String, toChars As String) As String
+ Dim i As Integer
+ Dim p As Integer
+ Dim result As String
+ Dim c As String
+ 
+ result = ""
+ For i = 1 To Len(s)
+  c = Mid(s, i, 1)
+  p = pos(c, fromChars)
+  If p = 0 Then
+   result = result + c
+  Else
+   result = result + Mid(toChars, p, 1)
+  End If
+ Next i
+ convertWideChars = result
+End Function
+
+Sub ConvertText()
+ txtTarget.Text = convertWideChars(txtSource.Text, txtFrom.Text, txtTo.Text)
+End Sub
+
+'//Event handlers//
+
+Private Sub btnConvert_Click()
+ ConvertText
+End Sub
+
+Private Sub btnUpdateMapping_Click()
+ UpdateMapping
+End Sub
+</pre></b></indent>
+</p>
+
+<p>
+(C)opyright 2006-2010 - Zoomicon / George Birbilis<br />
+Free to use / give due credit
+</p>
+
+</BODY>
+
+</HTML>

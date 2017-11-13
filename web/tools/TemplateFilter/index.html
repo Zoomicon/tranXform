@@ -1,0 +1,69 @@
+<HTML>
+ <HEAD>
+  <TITLE>tranXform/tools/TemplateFilter</TITLE>
+  <LINK href="../../CSS/default.css" type=text/css rel=stylesheet>
+  <style type="text/css">
+.style1 {
+    color: #3333CC;
+}
+
+</style>
+ </HEAD>
+
+<BODY>
+
+<p>
+ <hr color=#3333cc size=2>
+ <strong><font><span class="style1">TemplateFilter</span><em style="COLOR: #3333cc"> - 
+Generate text from CSV-style input using templates</em></font></strong>
+ <hr color=#3333cc size=2>
+</p>
+
+<p>
+It's a text filter that can parse CSV style input (multiple values per row separated with ";" semicolons) and generate text based on a template applied per input row
+</p>
+
+<p>
+<b>Download:</b> <a href="TemplateFilter_20100930.zip">TemplateFilter_20100930.zip</a>
+</p>
+
+<p>
+<b>Instructions:</b><br>
+<ol>
+<li>Unpack .EXE, .BAT and .TXT from .ZIP file in a folder</li>
+<li>Double-click .BAT to execute demo that creates and displays a webpage with a files list (with links to respective files) for the current folder</li>
+<li>Right-click .BAT and select "Edit" to see how it works (dumping explorer.exe to the command-line and filtering out control chars)
+<li>Right-click .TXT to see/edit the template format
+</ol>
+</p>
+
+<p><b>Template format:</b></p>
+
+<p>* The example batch file is the following:</p>
+<p>
+<pre>
+dir /b | TemplateFilter TestTemplate.txt &gt; TestOutput.html
+start TestOutput.html
+@pause
+</pre>
+</p>
+
+<p>* The example template (to create an HTML link for each filename returned by "dir /b" [b=bare mode] command) is as follows:</p>
+<p>
+<pre>
+&lt;a href="%1"&gt;%1&lt;/a&gt;&ltbr /&gt
+</pre>
+</p>
+<p>%1, %2, etc. in the template text are placeholders for column values of each input row - columns are separated by ";", however you could modify the code to change this or add a 2nd command-line parameter for the caller to define the separator character</p>
+
+<p><b>Source code:</b></p>
+<p>Source code in Object Pascal / Delphi (the .DPR file holds the Delphi command-line project code) included</p>
+
+<p>
+(C)opyright 2010 - Zoomicon / George Birbilis<br />
+Free to use / give due credit
+</p>
+
+</BODY>
+
+</HTML>

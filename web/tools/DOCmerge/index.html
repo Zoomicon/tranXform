@@ -1,0 +1,44 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml">
+
+<head>
+<style type="text/css">
+*{line-height:130%;}
+h4{margin:4px 0px;font-size:110%;}
+h4{margin:8px 0px 4px;line-height:145%;font-weight:bold;}
+a{font-weight:inherit;text-decoration:none;color:#014982;}
+.style1 {
+    color: #0000DC;
+}
+</style>
+<TITLE>tranXform/tools/DOCmerge</TITLE>
+<LINK href="../../CSS/default.css" type=text/css rel=stylesheet>
+</head>
+
+<body>
+
+<p>
+ <hr color=#3333cc size=2>
+ <strong><font><em style="COLOR: #3333cc">DOCmerge - merge multiple Word documents into a single .DOC file</em></font></strong>
+ <hr color=#3333cc size=2>
+</p>
+
+<p>
+Add multiple .DOC (or also .TXT etc.) files at the "docs" folder, named alphabetically in the order you wish them to be concatenated (say add a numeric prefix to their name).
+</p>
+
+<p>
+Drag-drop the "docs" folder you wish to merge onto the DOCmerge.vbs file in order to get a Word file with the same name as the folder, but with the suffix "_CONCATENATED".
+</p>
+
+<p>
+<b><u>Important note</u></b>: page layout of different sections/pages is not respected by the above script, so either fix the page/section formatting by hand (create section breaks where needed and change page layout for those sections you want to layout say horizontally [landscape] instead of vertically [portrait]). Can also try uncommenting "word.Selection.PasteAndFormat wdPasteDefault" by removing the ' in front of it and commenting the next line instead, in case that action also copy/pastes page orientation (haven't tried it and find it unlikely though). Doing that change will render the script non-workable at older Word versions though. To fix this issue a total rewrite of the script is needed to enumerate all sections and copy text per section, also reading and setting the section orientation and whatever other section layout settings from the source file to the target file.
+</p>
+
+<p>For the above to work you need Microsoft Word installed and Windows Script Host (pre-installed by 
+default at WinXP and Windows Vista, can get it from
+<a href="http://msdn2.microsoft.com/en-us/library/ms950396.aspx" target="_blank">http://msdn2.microsoft.com/en-us/library/ms950396.aspx</a>)</p>
+
+<p>
+<b>Download:</b> <a href="DOCmerge_20091028.rar">DOCmerge_20091028.rar</a>
+</p>
+

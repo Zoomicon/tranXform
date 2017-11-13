@@ -1,0 +1,13 @@
+BODY
+{
+	background-image: none;
+	color: black;
+	background-color: rgb(220,220,210);
+}
+
+A:link { color: rgb(0,0,220); }
+
+A:visited { color: rgb(0,0,180); }
+
+A:active { color: rgb(50,50,255) ; }
+           

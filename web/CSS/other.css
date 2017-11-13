@@ -1,0 +1,36 @@
+        
+/* general links */
+a:link:hover{ color:#ff8500; text-decoration: underline; }
+a:visited	{ color:#ff8500; text-decoration: none; }
+a:visited:hover{ color:#ff8500; text-decoration: underline; }
+a:link		{ color:#ff8500; text-decoration: none; }
+/* ------ */
+
+/* default font */
+.top,.menu,.main,.bottom,div,p,ul,td { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; line-height: 130%; font-weight: normal; color: #666666; }
+/* ------ */
+
+h1 { font-size: 16px; font-style: normal; line-height: 130%; font-weight:bold; text-align: center; color:#666666}
+h2 { font-size: 12px; font-style: normal; font-weight:bold; line-height: 130%; color:#666699; padding-left:1em; } /* #666699 */
+h3 { font-size: 12px; font-style: normal; font-weight:bold; line-height: 130%; color:#666666; }
+h4 { font-size: 12px; font-style: normal; font-weight:normal; line-height: 130%; color:#666699; }
+
+b { font-weight:bold; color:#666699; }
+hr { width:90%; color:#cccccc; height:0px; border-bottom:1px dotted #cccccc; }
+body { background-image: url("http://www.spiritsoft.com/images/template/gw_stripe.gif"); background-repeat: repeat; background-color:#cccccc; scrollbar-3dlight-color:#999999; scrollbar-arrow-color:#999999; scrollbar-base-color:white; scrollbar-darkshadow-color:white; scrollbar-face-color:white; scrollbar-highlight-color:white; scrollbar-shadow-color:#999999 }
+li { padding:0.5em; }
+
+.bordertable { background:#cccccc; }
+.bordertable td { background-color:white; padding:0.5em; }
+
+/* copyright info */
+.bottom p, .copyright { font-size:8px; color:#666666; padding-right:0.5em; }
+.bottom p, .bottomnav { height:20px; padding:2px; padding-left:1em; padding-right:1em; border-left: 1px solid #ff8500; border-bottom:1px solid #ff8500; border-right:1px solid #ff8500; float:left; text-align:left; background-color:white; }
+/* ------ */
+
+#main { width:520px; padding: 1em 0 1em 0; }
+#main p { padding:0 1em 0 1em; }
+#main p small {color:#999999;}
+
+#content { width:520px; border: 1px solid black; background-color:white; overflow:hidden;}
+#bottomnavdiv { width:520px; text-align:right; color:#cccccc; }

@@ -1,0 +1,53 @@
+<HTML>
+ <HEAD>
+  <TITLE>tranXform/tools/DocGen</TITLE>
+  <LINK href="../../CSS/default.css" type=text/css rel=stylesheet>
+  <style type="text/css">
+.style1 {
+    color: #3333CC;
+}
+
+</style>
+ </HEAD>
+
+<BODY>
+
+<p>
+ <hr color=#3333cc size=2>
+ <strong><font><span class="style1">DocGen</span><em style="COLOR: #3333cc"> - 
+template-based documents generator</em></font></strong>
+ <hr color=#3333cc size=2>
+</p>
+
+<p>
+It's a script in VBScript used to generate multiple Microsoft Word documents based on templates 
+(.DOC) and Excel spreadsheet (.XLS) data to fill-in</p>
+
+<p>
+<B>Download:</B> <a href="DocGen_20091028.rar">DocGen_20091028.rar</a>
+</p>
+
+<p>
+<B>Instructions:</B><br>
+<ol>
+<li>Add/Edit document templates (.DOC) in Templates folder (put-in tags of any 
+form, e.g. #SURNAME#)</li>
+<li>Add/Edit XLS data in Data folder - each XLS has two columns (a tuple) per 
+row, of the form (TAG, VALUE)</li>
+<li>At the Data folder, drag-drop an XLS file onto MakeDocuments.vbs</li>
+<li>One document is generated for each template at the Output folder, filling-in 
+the data (replacing the tags with respective values) from the spreadsheet file</li>
+</ol>
+</p>
+<p>
+<B>Requirements:</B> you must have Microsoft Word, Microsoft Excel and WSH (Windows Scripting Host) installed. If you don't have WSH, you can <a href="http://www.microsoft.com/download/en/details.aspx?id=8247" target="_blank">download WSH from Microsoft</a> 
+</p>
+
+<p>
+(C)opyright 2009 - Zoomicon / George Birbilis<br />
+Free to use / give due credit
+</p>
+
+</BODY>
+
+</HTML>

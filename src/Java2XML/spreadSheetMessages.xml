@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-7" standalone="yes"?>
+<!DOCTYPE CLASS SYSTEM "JavaResourceBundle.dtd">
+<?xml:stylesheet type="text/xsl" href="JavaResourceBundle.xsl"?>
+<RESOURCEBUNDLE>
+ <ENTRY>
+  <KEY>toolBarVisible</KEY>
+  <VALUE>Γραμμή εργαλείων ορατή</VALUE>
+ </ENTRY>
+ <ENTRY>
+  <KEY>toolBarVisibleTip</KEY>
+  <VALUE>Εμφάνιση/απόκρυψη γραμμής εργαλείων</VALUE>
+ </ENTRY>
+ <ENTRY>
+  <KEY>spreadSheetEngineTip</KEY>
+  <VALUE>Η τρέχουσα μηχανή υπολογισμών (Logo/Excel)</VALUE>
+ </ENTRY>
+ <ENTRY>
+  <KEY>spreadSheetEngine</KEY>
+  <VALUE>Μηχανή υπολογισμών</VALUE>
+ </ENTRY>
+</RESOURCEBUNDLE>

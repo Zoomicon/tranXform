@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<!DOCTYPE CLASS SYSTEM "JavaClass.dtd">
+<?xml:stylesheet type="text/xsl" href="JavaClass.xsl"?>
+<CLASS>
+ <NAME>gr.plt.eslate.spreadsheet.MessagesBundle_el_GR</NAME>
+ <SUPERCLASS>
+  <NAME>java.util.ListResourceBundle</NAME>
+ </SUPERCLASS>
+ <CLASS_MODIFIERS  public=""/>
+ <CONSTRUCTORS>
+  <CONSTRUCTOR>
+   <NAME>gr.plt.eslate.spreadsheet.MessagesBundle_el_GR</NAME>
+   <METHOD_MODIFIERS  public=""/>
+  </CONSTRUCTOR>
+ </CONSTRUCTORS>
+ <METHODS>
+  <METHOD>
+   <NAME>getBundle</NAME>
+   <METHOD_MODIFIERS  public="" static=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>getBundle</NAME>
+   <METHOD_MODIFIERS  public="" static="" final=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>getBundle</NAME>
+   <METHOD_MODIFIERS  public="" static="" final=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>hashCode</NAME>
+   <METHOD_MODIFIERS  public="" native=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>wait</NAME>
+   <METHOD_MODIFIERS  public="" final=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>wait</NAME>
+   <METHOD_MODIFIERS  public="" final=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>wait</NAME>
+   <METHOD_MODIFIERS  public="" final="" native=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>getClass</NAME>
+   <METHOD_MODIFIERS  public="" final="" native=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>equals</NAME>
+   <METHOD_MODIFIERS  public=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>toString</NAME>
+   <METHOD_MODIFIERS  public=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>notify</NAME>
+   <METHOD_MODIFIERS  public="" final="" native=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>notifyAll</NAME>
+   <METHOD_MODIFIERS  public="" final="" native=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>getObject</NAME>
+   <METHOD_MODIFIERS  public="" final=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>getString</NAME>
+   <METHOD_MODIFIERS  public="" final=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>getStringArray</NAME>
+   <METHOD_MODIFIERS  public="" final=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>getLocale</NAME>
+   <METHOD_MODIFIERS  public=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>handleGetObject</NAME>
+   <METHOD_MODIFIERS  public="" final=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>getKeys</NAME>
+   <METHOD_MODIFIERS  public=""/>
+  </METHOD>
+  <METHOD>
+   <NAME>getContents</NAME>
+   <METHOD_MODIFIERS  public=""/>
+  </METHOD>
+ </METHODS>
+ <FIELDS>
+  <FIELD>
+   <NAME>INFO_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>TITLE_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>NAME_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>LOGOPLUG_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>VALUESPLUG_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>FILE_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>NEWWORKBOOK_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>IMPORTWORKBOOK_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>EXPORTWORKBOOK_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>EMPTYWORKBOOK_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>NEWWORKSHEET_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>IMPORTWORKSHEET_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>EXPORTWORKSHEET_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>REMOVEWORKSHEET_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>PRINTWORKSHEET_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>PRINTSETTINGS_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>EXIT_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>EDIT_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>CUT_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>COPY_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>PASTE_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>DELETE_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>RENAME_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>INSERTROW_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>INSERTCOLUMN_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>SELECTCELL_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>SELECTALL_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>VIEW_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>REFRESH_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>AUTORESIZEROWS_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>CHANGEROWSHEIGHT_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>AUTORESIZECOLUMNS_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>CHANGECOLUMNSWIDTH_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>GRIDROWSVISIBLE_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>GRIDCOLUMNSVISIBLE_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>SETTINGS_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>GRIDCOLOR_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>NEWNAME_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>EMPTYNAME_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>NAMEEXISTS_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>ROWHEIGHT_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>COLUMNWIDTH_MSGKEY</NAME>
+   <TYPE>j
+av
+a.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>SAVEWORKBOOKCONTENTS_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>SAVEWORKSHEETCONTENTS_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>NONCONTIGUOUSAREA_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>NAN_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>FAILETOPRINT_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>INPUT_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>INFORMATION_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>CONFIRMATION_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>ERROR_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>FONT_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>TEXTCOLOR_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>BACKGROUNDCOLOR_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>JUSTIFICATION_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>LEFT_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>CENTER_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>RIGHT_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>WRAPPING_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>TRUNCATESTRING_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>WORDWRAP_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>SPANCOLUMNS_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>IMPORT_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>WORKBOOKIMPORTERNOTAVAILABLE_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>WORKSHEETIMPORTERNOTAVAILABLE_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>EXPORT_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>WORKBOOKEXPORTERNOTAVAILABLE_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>WORKSHEETEXPORTERNOTAVAILABLE_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>CHANGE_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>UNTITLED_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>WORKBOOK_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>WORKSHEET_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>ASKCELLROW_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>ASKCELLCOLUMN_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>EXCELFILES_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>XMLFILES_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>HTMLFILES_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+  <FIELD>
+   <NAME>CSVFILES_MSGKEY</NAME>
+   <TYPE>java.lang.String   </TYPE>
+   <FIELD_MODIFIERS  public="" static="" final=""/>
+  </FIELD>
+ </FIELDS>
+</CLASS>
+

@@ -1,0 +1,57 @@
+<HTML>
+ <HEAD>
+  <TITLE>tranXform/tools/MultiChoice</TITLE>
+  <LINK href="../../CSS/default.css" type=text/css rel=stylesheet>
+ </HEAD>
+
+<BODY>
+
+<p>
+ <hr color=#3333cc size=2>
+ <strong><font><em style="COLOR: #3333cc">MultiChoice - Multiple Choice generator</em></font></strong>
+ <hr color=#3333cc size=2>
+</p>
+
+<p>
+It's a script in VBScript used to generate exam documents based on multiple choice and free text questions
+</p>
+
+<p>
+<B>Download:</B> <a href="MultiChoice_20090625a.rar">MultiChoice_20090625a.rar</a>
+</p>
+
+<p>
+<B>Instructions:</B><br>
+<ol>
+<li>Edit document templates at "Templates" folder. Unused test documents are prefixed with "~" char</li>
+<li>Clear output folder from old documents</li>
+<li>Navigate to Data folder</li>
+<li>Edit "OldQuestions.doc" to add any questions used in previous tests that you don't want to reuse (copy-paste the question text - text formatting isn't important)</li>
+<li>Edit multiple choice questions spreadsheet at "Data" folder. See existing sample there (mark unused questions with a * at the 1st column and mark correct answers with bold font)</li>
+<li>Edit Generate.vbs with Notepad
+<ul>
+<li>to select how many questions to pick from spreadsheet's tab A, tab B and tab C</li>
+<li>to select how many shuffled versions of the multiple choice document to generate [one for each student group to avoid them copying from each other])</li>
+<li>to edit the length of the text that is used for spreadsheet questions to compare with old questions (from OldQuestions.doc) to see if it will be ignored</li>
+<li>to select whether a filled-in with answers document will also be generated</li>
+<li>to select whether comments from spreadsheet cells are shown at the generated answers document</li>
+</ul>
+<li>Drag-drop a questions spreadsheet (.xls file) onto the Generate.vbs script (need to have installed Windows Script Host [WSH] - it is preinstalled at recent Windows versions)</li>
+</ol>
+</p>
+<p>
+This will process all templates (apart the ones prefixed with ~) from "Templates" folder and will pick questions from the spreadsheet tabs to fill them in, ignoring any old questions. Results will be placed in "Output" folder. If you edit the script to generate a filled-in with answers document it will also generate one for each questions document generated.
+</p>
+
+<p>
+<B>Requirements:</B> you must have Microsoft Word, Microsoft Excel and WSH (Windows Scripting Host) installed. If you don't have WSH, you can <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=c717d943-7e4b-4622-86eb-95a22b832caa&amp;displaylang=en" target="_blank">download WSH from Microsoft</a> 
+</p>
+
+<p>
+(C)opyright 2009 - Zoomicon / George Birbilis<br />
+Free to use / give due credit
+</p>
+
+</BODY>
+
+</HTML>

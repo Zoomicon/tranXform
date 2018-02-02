@@ -1,0 +1,10 @@
+<!-- Description: DTD for a Java ResourceBundle
+     Author: George Birbilis <birbilis@kagi.com>
+     Version: 22Nov2001
+
+-->
+
+<!ELEMENT RESOURCEBUNDLE (ENTRY*)>
+<!ELEMENT ENTRY (KEY,VALUE)>
+<!ELEMENT KEY (#PCDATA)>
+<!ELEMENT VALUE (#PCDATA)>

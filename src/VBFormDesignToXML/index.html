@@ -1,0 +1,64 @@
+<HTML>
+ <HEAD>
+  <TITLE>tranXform/tools/VBFormDesignToXML</TITLE>
+  <LINK href="../../CSS/default.css" type=text/css rel=stylesheet>
+ </HEAD>
+
+<BODY>
+
+<p>
+ <hr color=#3333cc size=2>
+ <strong><font><em style="COLOR: #3333cc">VBFormDesignToXML.exe</em></font></strong>
+ <hr color=#3333cc size=2>
+</p>
+
+<p>
+Given the declarative design part of a VB6 .frm file (see the <a href="../VBFormDesignFilter/index.html">VBFormDesignFilter</a> utility), outputs an XML representation of it so that it can be further processed using XSL tranformations or other XML tranformation/querying tools
+</p>
+
+<p>
+<B>Download:</B> <a href="VBFormDesignToXML_20040818.zip">VBFormDesignToXML_20040818.zip</a>
+</p>
+
+<p> The output XML document is based on the "VBFormDesign.dtd" (Document Type Definition), included in the same folder</p>
+
+<p>
+<B>Syntax:</B> VBFormDesignToXML [codeFile [inputFile [outputFile [encoding]]]]<br>
+<B>Alternative ("DOS" filter) syntax:</B> VBFormDesignToXML [codeFile] [ &lt;inputFile [ &gt;outputFile ]]
+</p>
+
+<p>
+The default value for the encoding parameter is ISO-8859-1 (English)
+
+<p>
+The "codeFile" parameter is supposed to be the original .frm file or the output of <a href="../VBFormCodeFilter/index.html">VBFormCodeFilter</a> on the original .frm file. It's optional and if you provide it you get a list of all event names and the respective event handler subroutine names for each component in an EVENTS xml node under the COMPONENT node (see the "VBFormDesign.DTD" file)
+</p>
+
+<p>
+<B>Requirements:</B> if you want to rebuild using the source code (Delphi), you need the source code for the following units:
+<UL>
+<LI>"<a href="../VBFormDesignFilter/ac_strings_20021210a.zip">ac_strings.pas</a>"
+<LI>"<a href="Tokenizer_19990228.zip">Tokenizer</a>"
+<LI>"<a href="ac_Math_20021101.zip">ac_Math.pas</a>"
+<LI>"<a href="ac_TextFileUtil_20030101a.zip">ac_TextFileUtil.pas</a>"
+</UL>
+</p>
+
+<p>
+<B>Notes:</B> in the .frm file, you might see something like:<br>
+<br>
+<pre>
+ Begin VB.Label lblB06a
+  Caption = $"Formb06.frx":2C53
+  Height = 375
+  ...
+</pre>
+<br>
+This means the "Caption" of the "lblB06a" label is not contained in the .frm file in this case, but is at the offset (hex) 2C53 in the Formb06.frx file (in the same folder as the .frm file). If you take a look with a hex editor in this file, at this offset is a 4-byte number that's the length of the data that follows (ASCII text in this case)<br>
+<br>
+The $ at the start means that the external data are of string type, if this is missing, it's binary data, for example some image. I currently ignore such external data if it's binary, but they could be encoded appropriately and inserted in the XML - e.g. can use &x10;x20;x30; for the 3 bytes 102030 (hex)
+</p>
+
+</BODY>
+
+</HTML>

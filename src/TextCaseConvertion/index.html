@@ -1,0 +1,72 @@
+<HTML>
+ <HEAD>
+  <TITLE>tranXform/tools/TextCaseConvertion</TITLE>
+  <LINK href="../../CSS/default.css" type=text/css rel=stylesheet>
+  <style type="text/css">
+.style1 {
+    color: #3333CC;
+}
+
+</style>
+ </HEAD>
+
+<BODY>
+
+<p>
+ <hr color=#3333cc size=2>
+ <strong><font><span class="style1">TextCaseConvertion</span><em style="COLOR: #3333cc"> - 
+Convert text to upper-case, lower-case and camel-case</em></font></strong>
+ <hr color=#3333cc size=2>
+</p>
+
+<p>
+It's a simple program that can convert a string to lower-case (e.g. "test case"), upper-case (e.g. "TEST CASE") or camel-case (e.g. "Test Case")</p>
+
+<p>
+<b>Download:</b> <a href="TextCaseConvertion_20100930.zip">TextCaseConvertion_20100930.zip</a>
+</p>
+
+<p>
+<b>Instructions:</b><br>
+Just run the .exe file from the "bin" subfolder, enter text line to convert and select respective action for convertion to upper-case, lower-case and camel-case
+</p>
+
+<p>
+<b>Requirements:</b> you must have .NET runtime installed (can get it from <a href="http://update.microsoft.com" target="_blank">Windows Update</a> or from <a href="http://download.microsoft.com" target="_blank">Microsoft Downloads</a> site)
+</p>
+
+<p><b>Source code:</b></p>
+<p>
+Source code (VB.net) is in the main folder.<br />
+Convertion to upper-case is done with VB's "UCase" function and lower-case convertion with "LCase" one. Camel-case convertion is done with the following function:
+</p>
+
+<p>
+<indent><b><pre>
+ Public Function CamelCase(ByRef thePhrase As String) As String
+  Dim chars As Char() = thePhrase.ToCharArray()
+  Dim i As Integer
+  Dim result As String = ""
+  Dim inWord As Boolean = False
+  For i = 0 To chars.Length - 1
+   Dim c As Char = chars(i)
+   If inWord Then
+    result &= LCase(c)
+   Else
+    result &= UCase(c)
+   End If
+   inWord = (c <> " ") 'must do at end of loop so that it doesn't affect the 1st character of the string
+  Next i
+  Return result
+ End Function
+</pre></b></indent>
+</p>
+
+<p>
+(C)opyright 2003-2010 - Zoomicon / George Birbilis<br />
+Free to use / give due credit
+</p>
+
+</BODY>
+
+</HTML>

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+
+<head>
+ <title>Content</title>
+ 
+ <meta name="title" content="Content">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="description" content="Content">
+ <meta name="keywords" content="">
+ <meta name="robots" content="index, follow">
+
+<!--
+ <link rel="shortcut icon" href="../Images/favicon.ico">
+ <link rel="stylesheet" href="../Stylesheets/template_css.css" type="text/css">
+ <link rel="stylesheet" href="../Stylesheets/print.css" type="text/css" media="print">
+-->
+</head>
+
+<body>
+

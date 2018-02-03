@@ -1,0 +1,64 @@
+<HTML>
+ <HEAD>
+  <TITLE>tranXform/tools/VB6FormToWebForm</TITLE>
+  <LINK href="../../CSS/default.css" type=text/css rel=stylesheet>
+ </HEAD>
+
+<BODY>
+
+<p>
+ <hr color=#3333cc size=2>
+ <strong><font><em style="COLOR: #3333cc">VB6FormToWebForm (AllForms.bat)</em></font></strong>
+ <hr color=#3333cc size=2>
+</p>
+
+<p>
+A tool to convert VB6 forms to ASP.net WebForms (+ VB.net codebehind logic)
+</p>
+
+<p>
+<B>Screenshots (Greek):</B>
+<UL>
+<LI><a href="../../images/FormUser_frm.jpg" target="new">input VB6 form (FormUser.frm)</a>
+<LI><a href="../../images/FormUser_aspx.jpg" target="new">rendered HTML page from the output ASP.net WebForm (FormUser.frm.aspx)</a>
+</UL>
+</p>
+
+<p>
+<B>Download:</B> <a href="VB6FormToWebForm_20151016.zip">VB6FormToWebForm_20151016.zip</a>
+</p>
+
+<p>
+<B>Syntax:</B>
+<UL>
+<LI>AllForms.bat - the utility (calls into "process.bat" for each .frm file)
+<LI>Cleanup.bat - cleanup all files apart from the ones that make this utility (deletes .frm files too)
+</UL>
+</p>
+
+<p>
+<B>Description:</B> When "AllForms.bat" is run, for all .frm files found in the same folder, it does the following actions:
+<UL>
+<LI>from the .frm file, it extracts the declarative design using "VBFormDesignFilter.exe", into a .frm.txt file (may search for external form resources in a .frx file if referenced so in the .frm file - you must place the .frx file if there is one [usually has the same base name as the .frm file] in the same folder as the .frm file)
+<LI>from the .frm.txt file, using "VBFormDesignToXML.exe", it creates a .frm.xml file with the same declarative design, now in XML format, based on the "VBFormDesign.dtd" document type definition.
+<LI>with the help of "XSLTranform.exe" and the "SortByTabIndex.xsl", the .frm.xml file has all the COMPONENT node siblings in the XML tree sorted by their "TabIndex" property (tab order). An new, sorted .frm.xml file is created, replacing the old one
+<LI>with the help of "XSLTranform.exe" and the "WebForm.xsl", a .frm.aspx file is created from the .frm.xml file. This is an HTML file that also contains special ASP.net tags used by ASP.net to generate the final HTML when an IIS tells it to serve the respective web page
+<LI>with the help of "XSLTranform.exe" and the "WebForm.xsl", a .frm.aspx.vb file is created the .frm.xml file. This is a "codebehind" VB.net class for the .aspx page. It's optional to use a codebehind class in ASP.net, but it's better cause you can separate your logic from the HTML/ASP.net tags that declare the page GUI
+<LI>the "replace" utility is used on the resulting ".frm.aspx" file to replace the token "#CodebehindFile#" with the filename for the respective ".frm.aspx.vb" file
+</UL>
+</p>
+
+<p>
+<B>Notes/Requirements:</B>
+<UL>
+<LI>To run this utility you need to have the Microsoft .NET runtime installed (cause the XSLTransform.exe requires it). You can get it from the <a href="http://windowsupdate.microsoft.com">Windows Update</a> website
+<LI>To try the output, you need to install IIS (included in the Win2000pro CD for example) and then install/reinstall ASP.net (included in the .NET runtime). Easiest way is to use Visual Studio.net, make a new web project and then add the .frm.aspx and .frm.aspx.vb files in it and rebuild. For more info  on ASP.net see <a href="http://www.microsoft.com/net">http://www.microsoft.com/net</a>.
+<LI>In both the .frm.aspx and .frm.aspx.vb files, you'll have to change the token "gr.kee.questionaire.Web" with a package name of your own (can change this permanently in the WebForm.xsl and WebForm_vb.xsl transformation files)
+<LI>If you don't want to use a codebehind class, throw away the .frm.aspx.vb output file and edit the Page tag at the .frm.aspx file to not contain the "Codebehind" and "Inherits" attributes. Then you can just drop the .frm.aspx file in any "application" subfolder under the IIS "inetpub\wwwroot" folder and browse it via any HTML browser (no need to compile any codebehind class). The freeware ASP.net WebMatrix IDE (<a href="http://www.asp.net/webmatrix">http://www.asp.net/webmatrix</a>) also uses this approach for simplicity. You can load/edit the generated .frm.aspx web pages in WebMatrix if you first edit them by hand so that they don't use a codebehind class. You can also convert the "WebForm.xsl" and "process.bat" files to not generate a .aspx file that uses a codebehind class.
+<LI>The "WebForm.xsl" produces an ASP.net WebForm that uses what the Visual Studio.net WebForm designer calls "FlowLayout". I could have used "GridLayout" but that translates into CSS (Cascading Stylesheets) in the resulting HTML so requires viewing it with a recent web browser version. The "GridLayout" would allow creating a WebForm that would match the VB6 form almost exactly visually (same size/placement of controls on the screen), but I prefer resizable flow HTML GUIs than using absolute size/placement via CSS. Maybe in the future I'll create a WebForm_GridLayout.xsl transform too (also have plans to make an XForm.xsl to convert the VB6 form into a W3C XForm). Contributions are welcome!
+</UL>
+</p>
+
+</BODY>
+
+</HTML>

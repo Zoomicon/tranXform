@@ -1,0 +1,4029 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE VBFORM SYSTEM "VBFormDesign.dtd" []>
+
+<!--
+ VB form design info generated using the VBFormDesignToXML
+ tool which is (C)2002-2004 G.Birbilis (birbilis@kagi.com)
+-->
+
+<VBFORM>
+ <VERSION>5.00</VERSION>
+  <OBJECT>
+   <GUID>67397AA1-7FB1-11D0-B148-00A0C922E820</GUID>
+   <VER>#6.0#0</VER>
+   <FILENAME></FILENAME>
+  </OBJECT>
+  <OBJECT>
+   <GUID>F0D2F211-CCB0-11D0-A316-00AA00688B10</GUID>
+   <VER>#1.0#0</VER>
+   <FILENAME></FILENAME>
+  </OBJECT>
+  <OBJECT>
+   <GUID>BDC217C8-ED16-11CD-956C-0000C04E4C0A</GUID>
+   <VER>#1.1#0</VER>
+   <FILENAME></FILENAME>
+  </OBJECT>
+  <OBJECT>
+   <GUID>97BD7A06-77E0-11D2-8EAE-008048E27A77</GUID>
+   <VER>#1.0#0</VER>
+   <FILENAME></FILENAME>
+  </OBJECT>
+ <COMPONENT>
+  <CLASS>VB.Form</CLASS>
+  <NAME>building</NAME>
+   <PROPERTY>
+    <NAME>BorderStyle</NAME>
+    <VALUE>3</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>Êôßñéá (Á.11 - Á.19)</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ClientHeight</NAME>
+    <VALUE>8028</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ClientLeft</NAME>
+    <VALUE>600</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ClientTop</NAME>
+    <VALUE>468</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ClientWidth</NAME>
+    <VALUE>10212</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>700</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>KeyPreview</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>LinkTopic</NAME>
+    <VALUE>Form1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>MaxButton</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>MinButton</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ScaleHeight</NAME>
+    <VALUE>8028</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ScaleWidth</NAME>
+    <VALUE>10212</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ShowInTaskbar</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>StartUpPosition</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+ <COMPONENT>
+  <CLASS>VB.CommandButton</CLASS>
+  <NAME>btnCancel</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>Áêýñùóç êáé åðéóôñïöÞ</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>375</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>5160</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>34</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>7560</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>2295</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>Click</NAME>
+     <HANDLERNAME>btnCancel_Click</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.CommandButton</CLASS>
+  <NAME>btnSubmit</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>Êáôá÷þñçóç êáé åðéóôñïöÞ</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>375</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>2400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>33</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>7560</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>2295</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>Click</NAME>
+     <HANDLERNAME>btnSubmit_Click</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.CommandButton</CLASS>
+  <NAME>btnDelete</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>ÄéáãñáöÞ êôéñßïõ</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>375</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>6360</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>32</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>7080</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>1935</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>Click</NAME>
+     <HANDLERNAME>btnDelete_Click</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.CommandButton</CLASS>
+  <NAME>btnAdd</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>ÅéóáãùãÞ íÝïõ êôéñßïõ</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>375</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>4080</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>31</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>7080</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>2055</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>Click</NAME>
+     <HANDLERNAME>btnAdd_Click</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>TabDlg.SSTab</CLASS>
+  <NAME>tabA17A19</NAME>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>3492</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>26</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>3480</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>9972</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_ExtentX</NAME>
+    <VALUE>17590</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_ExtentY</NAME>
+    <VALUE>6160</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_Version</NAME>
+    <VALUE>393216</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Tabs</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabHeight</NAME>
+    <VALUE>882</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabCaption(0)</NAME>
+    <VALUE>Á.17. ÐïéÜ åßíáé ç êáôÜóôáóç ôïõ êôéñßïõ;</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabPicture(0)</NAME>
+    <VALUE>building.frx":000</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Tab(0).ControlEnabled</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Tab(0).Control(0)</NAME>
+    <VALUE>dgA17</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Tab(0).Control(0).Enabled</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Tab(0).Control(1)</NAME>
+    <VALUE>btnA17a</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Tab(0).Control(1).Enabled</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Tab(0).ControlCount</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabCaption(1)</NAME>
+    <VALUE>Á.19. Ðüôå ðñïâëÝðåôáé óõíôÞñçóç ôïõ êôéñßïõ êáé óå ðïéüí ôïìÝá;</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabPicture(1)</NAME>
+    <VALUE>building.frx":001</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Tab(1).ControlEnabled</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Tab(1).Control(0)</NAME>
+    <VALUE>btnA19a</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Tab(1).Control(1)</NAME>
+    <VALUE>dgA19</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Tab(1).ControlCount</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+ <COMPONENT>
+  <CLASS>VB.CommandButton</CLASS>
+  <NAME>btnA17a</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>ÐñïóèÞêç íÝïõ ôýðïõ ôïìÝá êôéñßïõ</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>375</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>2520</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>28</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>2880</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>3000</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>Click</NAME>
+     <HANDLERNAME>btnA17a_Click</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>BeeGridOLEDB10.SGGrid</CLASS>
+  <NAME>dgA17</NAME>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>2055</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>480</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>27</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>720</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>7335</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_cx</NAME>
+    <VALUE>12938</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_cy</NAME>
+    <VALUE>3625</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataMember</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataMode</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoFields</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Enabled</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>GridBorderStyle</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ScrollBars</NAME>
+    <VALUE>3</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FlatScrollBars</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ScrollBarTrack</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataRowCount</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingFont</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataColCount</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingRowCount</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingColCount</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TextAlignment</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>WordWrap</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Ellipsis</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingBackColor</NAME>
+    <VALUE>-2147483633</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingForeColor</NAME>
+    <VALUE>-2147483630</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingTextAlignment</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingWordWrap</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingEllipsis</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>GridLines</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingGridLines</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>GridLinesColor</NAME>
+    <VALUE>-2147483633</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingGridLinesColor</NAME>
+    <VALUE>-2147483632</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>EvenOddStyle</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ColorEven</NAME>
+    <VALUE>-2147483628</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ColorOdd</NAME>
+    <VALUE>-2147483624</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>UserResizeAnimate</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>UserResizing</NAME>
+    <VALUE>3</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>RowHeightMin</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>RowHeightMax</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ColWidthMin</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ColWidthMax</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>UserDragging</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>UserHiding</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellPadding</NAME>
+    <VALUE>15</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellBkgStyle</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellBackColor</NAME>
+    <VALUE>-2147483643</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellForeColor</NAME>
+    <VALUE>-2147483640</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FocusRect</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FocusRectColor</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FocusRectLineWidth</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabKeyBehavior</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>EnterKeyBehavior</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>NavigationWrapMode</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>SkipReadOnly</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DefaultColWidth</NAME>
+    <VALUE>1200</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DefaultRowHeight</NAME>
+    <VALUE>255</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellsBorderColor</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellsBorderVisible</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>RowNumbering</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>EqualRowHeight</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>EqualColWidth</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HScrollHeight</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>VScrollWidth</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Format</NAME>
+    <VALUE>General</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Appearance</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FitLastColumn</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>SelectionMode</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>MultiSelect</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AllowAddNew</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AllowDelete</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AllowEdit</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ScrollBarTips</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellTips</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellTipsDelay</NAME>
+    <VALUE>1000</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>SpecialMode</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>OutlineLines</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CacheAllRecords</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ColumnClickSort</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>PreviewPaneColumn</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>PreviewPaneType</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>PreviewPanePosition</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>PreviewPaneSize</NAME>
+    <VALUE>2000</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>GroupIndentation</NAME>
+    <VALUE>225</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>InactiveSelection</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoScroll</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoResize</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoResizeHeadings</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>OLEDragMode</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>OLEDropMode</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ScrollTipColumn</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>MaxRows</NAME>
+    <VALUE>1024</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>MaxColumns</NAME>
+    <VALUE>12</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>NewRowPos</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CustomBkgDraw</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoGroup</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>GroupByBoxVisible</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>GroupByBoxText</NAME>
+    <VALUE>Drag a column header here to group by that column</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AlphaBlendEnabled</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DragAlphaLevel</NAME>
+    <VALUE>206</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoSearch</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoSearchDelay</NAME>
+    <VALUE>2000</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>StylesCollection</NAME>
+    <VALUE>&lt;Styles&gt;
+ &lt;Style name="Caption"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Heading"/&gt;
+   &lt;Prop name="TextAlignment" value="5"/&gt;
+   &lt;Prop name="LineStyle" value="2"/&gt;
+   &lt;Prop name="CellBorder" value="0"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="CurrentCell"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="CurrentRow"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="CurrentRow"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="FilteredRow"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483633"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="Frozen"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="BackColor" value="15195094"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="GridBackground"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483640"/&gt;
+   &lt;Prop name="BackColor" value="-2147483636"/&gt;
+   &lt;Prop name="LineStyle" value="0"/&gt;
+   &lt;Prop name="EvenOddStyle" value="0"/&gt;
+   &lt;Prop name="CellPadding" value="0"/&gt;
+   &lt;Prop name="CellBorderSize" value="0"/&gt;
+   &lt;Prop name="CellBorderColor" value="0"/&gt;
+   &lt;Prop name="CellBorder" value="0"/&gt;
+   &lt;Prop name="CustomDrawStage" value="0"/&gt;
+   &lt;Prop name="AlphaBorder" value="255"/&gt;
+   &lt;Prop name="AlphaBkg" value="255"/&gt;
+   &lt;Prop name="AlphaBkgPicture" value="255"/&gt;
+   &lt;Prop name="AlphaContent" value="255"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="GroupByBox"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483633"/&gt;
+   &lt;Prop name="BackColor" value="10592673"/&gt;
+   &lt;Prop name="GridLineColor" value="-2147483640"/&gt;
+   &lt;Prop name="TextAlignment" value="4"/&gt;
+   &lt;Prop name="WordWrap" value="0"/&gt;
+   &lt;Prop name="LineStyle" value="0"/&gt;
+   &lt;Prop name="CellPadding" value="65"/&gt;
+   &lt;Prop name="CellBorderColor" value="0"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="GroupByBoxCell"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="GroupFooter"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483630"/&gt;
+   &lt;Prop name="BackColor" value="14737632"/&gt;
+   &lt;Prop name="GridLineColor" value="-2147483640"/&gt;
+   &lt;Prop name="TextAlignment" value="4"/&gt;
+   &lt;Prop name="WordWrap" value="-1"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="GroupHeader"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483630"/&gt;
+   &lt;Prop name="BackColor" value="-2147483633"/&gt;
+   &lt;Prop name="GridLineColor" value="-2147483640"/&gt;
+   &lt;Prop name="TextAlignment" value="4"/&gt;
+   &lt;Prop name="WordWrap" value="-1"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="Heading"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483630"/&gt;
+   &lt;Prop name="BackColor" value="-2147483633"/&gt;
+   &lt;Prop name="GridLineColor" value="-2147483632"/&gt;
+   &lt;Prop name="BkgStyle" value="1"/&gt;
+   &lt;Prop name="TextAlignment" value="0"/&gt;
+   &lt;Prop name="WordWrap" value="0"/&gt;
+   &lt;Prop name="Ellipsis" value="1"/&gt;
+   &lt;Prop name="LineStyle" value="2"/&gt;
+   &lt;Prop name="EvenOddStyle" value="0"/&gt;
+   &lt;Prop name="CellBorderSize" value="0"/&gt;
+   &lt;Prop name="CellBorder" value="0"/&gt;
+   &lt;Prop name="DisplayType" value="1"/&gt;
+   &lt;Prop name="Appearance" value="2"/&gt;
+   &lt;Font&gt;
+    &lt;Prop name="Name" value="MS Sans Serif"/&gt;
+    &lt;Prop name="Size" value="0;78000"/&gt;
+    &lt;Prop name="Bold" value="0"/&gt;
+    &lt;Prop name="Italic" value="0"/&gt;
+    &lt;Prop name="Underline" value="0"/&gt;
+    &lt;Prop name="Strikethrough" value="0"/&gt;
+    &lt;Prop name="Weight" value="400"/&gt;
+    &lt;Prop name="Charset" value="161"/&gt;
+   &lt;/Font&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="InactiveSelection"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Selection"/&gt;
+   &lt;Prop name="BackColor" value="-2147483645"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="Normal"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value=""/&gt;
+   &lt;Prop name="ForeColor" value="-2147483640"/&gt;
+   &lt;Prop name="BackColor" value="-2147483643"/&gt;
+   &lt;Prop name="BackColor2" value="-2147483643"/&gt;
+   &lt;Prop name="HighlightColor" value="-2147483628"/&gt;
+   &lt;Prop name="ShadowColor" value="-2147483632"/&gt;
+   &lt;Prop name="GridLineColor" value="-2147483633"/&gt;
+   &lt;Prop name="BkgStyle" value="1"/&gt;
+   &lt;Prop name="TextAlignment" value="0"/&gt;
+   &lt;Prop name="WordWrap" value="0"/&gt;
+   &lt;Prop name="Ellipsis" value="1"/&gt;
+   &lt;Prop name="LineStyle" value="1"/&gt;
+   &lt;Prop name="EvenOddStyle" value="0"/&gt;
+   &lt;Prop name="EvenColor" value="-2147483628"/&gt;
+   &lt;Prop name="OddColor" value="-2147483624"/&gt;
+   &lt;Prop name="CellPadding" value="15"/&gt;
+   &lt;Prop name="CellBorderSize" value="0"/&gt;
+   &lt;Prop name="CellBorderStyle" value="1"/&gt;
+   &lt;Prop name="CellBorderColor" value="-2147483643"/&gt;
+   &lt;Prop name="CellBorder" value="0"/&gt;
+   &lt;Prop name="DisplayType" value="0"/&gt;
+   &lt;Prop name="TabKeyBehavior" value="0"/&gt;
+   &lt;Prop name="EnterKeyBehavior" value="0"/&gt;
+   &lt;Prop name="Appearance" value="2"/&gt;
+   &lt;Prop name="Radix" value="10"/&gt;
+   &lt;Prop name="Format" value="General"/&gt;
+   &lt;Prop name="PictAlignment" value="3"/&gt;
+   &lt;Prop name="CustomDrawStage" value="0"/&gt;
+   &lt;Prop name="AlphaBorder" value="255"/&gt;
+   &lt;Prop name="AlphaBkg" value="255"/&gt;
+   &lt;Prop name="AlphaBkgPicture" value="255"/&gt;
+   &lt;Prop name="AlphaContent" value="255"/&gt;
+   &lt;Prop name="MousePointer" value="0"/&gt;
+   &lt;Prop name="BkgPictAlignment" value="9"/&gt;
+   &lt;Font&gt;
+    &lt;Prop name="Name" value="MS Sans Serif"/&gt;
+    &lt;Prop name="Size" value="0;78000"/&gt;
+    &lt;Prop name="Bold" value="0"/&gt;
+    &lt;Prop name="Italic" value="0"/&gt;
+    &lt;Prop name="Underline" value="0"/&gt;
+    &lt;Prop name="Strikethrough" value="0"/&gt;
+    &lt;Prop name="Weight" value="400"/&gt;
+    &lt;Prop name="Charset" value="161"/&gt;
+   &lt;/Font&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="PreviewPane"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="LineStyle" value="0"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="Selection"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483634"/&gt;
+   &lt;Prop name="BackColor" value="-2147483635"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="Tip"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483625"/&gt;
+   &lt;Prop name="BackColor" value="-2147483624"/&gt;
+   &lt;Prop name="BkgStyle" value="1"/&gt;
+   &lt;Prop name="TextAlignment" value="4"/&gt;
+   &lt;Prop name="LineStyle" value="0"/&gt;
+   &lt;Prop name="CellPadding" value="18"/&gt;
+   &lt;Prop name="CellBorderSize" value="0"/&gt;
+   &lt;Prop name="CellBorderStyle" value="1"/&gt;
+   &lt;Prop name="CellBorderColor" value="-2147483625"/&gt;
+   &lt;Prop name="CellBorder" value="0"/&gt;
+   &lt;Prop name="Appearance" value="1"/&gt;
+   &lt;Prop name="Format" value=""/&gt;
+   &lt;Prop name="AlphaBorder" value="255"/&gt;
+   &lt;Prop name="AlphaBkg" value="255"/&gt;
+   &lt;Prop name="AlphaBkgPicture" value="255"/&gt;
+   &lt;Prop name="AlphaContent" value="255"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+&lt;/Styles&gt;
+</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ColumnsCollection</NAME>
+    <VALUE>&lt;Columns headCols="1"&gt;
+ &lt;Column key="Col0"&gt;
+  &lt;Prop name="DBFiled" value=""/&gt;
+  &lt;Prop name="DataType" value="8"/&gt;
+  &lt;Prop name="Width" value="264"/&gt;
+  &lt;Prop name="Caption" value=""/&gt;
+  &lt;Prop name="Hidden" value="0"/&gt;
+  &lt;Prop name="ReadOnly" value="0"/&gt;
+  &lt;Prop name="DataWidth" value="255"/&gt;
+  &lt;Prop name="AllowSizing" value="1"/&gt;
+  &lt;Prop name="AllowFocus" value="1"/&gt;
+  &lt;Prop name="FetchCellStyle" value="0"/&gt;
+  &lt;Prop name="Frozen" value="0"/&gt;
+  &lt;Prop name="SortOrder" value="0"/&gt;
+  &lt;Prop name="SortType" value="0"/&gt;
+  &lt;Prop name="MergeCells" value="0"/&gt;
+  &lt;Prop name="MaskEdit" value=""/&gt;
+  &lt;Prop name="MaskDataMode" value="0"/&gt;
+  &lt;Control&gt;
+   &lt;Prop name="Type" value="0"/&gt;
+   &lt;Prop name="Width" value="-1"/&gt;
+   &lt;Prop name="Height" value="1000"/&gt;
+   &lt;Prop name="PopupRows" value="0"/&gt;
+   &lt;Prop name="AutoOpen" value="0"/&gt;
+   &lt;Prop name="PopupAlign" value="1"/&gt;
+   &lt;Prop name="BtnAlign" value="1"/&gt;
+   &lt;Prop name="ShowButton" value="0"/&gt;
+   &lt;Prop name="SortOrder" value="1"/&gt;
+   &lt;Prop name="ItemHeight" value="-1"/&gt;
+  &lt;/Control&gt;
+  &lt;ColumnStyle name=""&gt;
+   &lt;StyleData&gt;
+    &lt;Prop name="BasedOn" value="Heading"/&gt;
+    &lt;Prop name="TextAlignment" value="4"/&gt;
+    &lt;Prop name="PictAlignment" value="5"/&gt;
+   &lt;/StyleData&gt;
+  &lt;/ColumnStyle&gt;
+ &lt;/Column&gt;
+ &lt;Column key="Field0"&gt;
+  &lt;Prop name="DBFiled" value="Field0.0"/&gt;
+  &lt;Prop name="DataType" value="8"/&gt;
+  &lt;Prop name="Width" value="1200"/&gt;
+  &lt;Prop name="Caption" value=""/&gt;
+  &lt;Prop name="Hidden" value="0"/&gt;
+  &lt;Prop name="ReadOnly" value="0"/&gt;
+  &lt;Prop name="DataWidth" value="255"/&gt;
+  &lt;Prop name="AllowSizing" value="1"/&gt;
+  &lt;Prop name="AllowFocus" value="1"/&gt;
+  &lt;Prop name="FetchCellStyle" value="0"/&gt;
+  &lt;Prop name="Frozen" value="0"/&gt;
+  &lt;Prop name="SortOrder" value="0"/&gt;
+  &lt;Prop name="SortType" value="0"/&gt;
+  &lt;Prop name="MergeCells" value="0"/&gt;
+  &lt;Prop name="MaskEdit" value=""/&gt;
+  &lt;Prop name="MaskDataMode" value="0"/&gt;
+  &lt;Control&gt;
+   &lt;Prop name="Type" value="0"/&gt;
+   &lt;Prop name="Width" value="-1"/&gt;
+   &lt;Prop name="Height" value="1000"/&gt;
+   &lt;Prop name="PopupRows" value="0"/&gt;
+   &lt;Prop name="AutoOpen" value="0"/&gt;
+   &lt;Prop name="PopupAlign" value="1"/&gt;
+   &lt;Prop name="BtnAlign" value="1"/&gt;
+   &lt;Prop name="ShowButton" value="0"/&gt;
+   &lt;Prop name="SortOrder" value="1"/&gt;
+   &lt;Prop name="ItemHeight" value="-1"/&gt;
+  &lt;/Control&gt;
+  &lt;ColumnStyle name=""&gt;
+   &lt;StyleData&gt;
+    &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;/StyleData&gt;
+  &lt;/ColumnStyle&gt;
+ &lt;/Column&gt;
+ &lt;Column key="Field1"&gt;
+  &lt;Prop name="DBFiled" value="Field1.1"/&gt;
+  &lt;Prop name="DataType" value="8"/&gt;
+  &lt;Prop name="Width" value="1200"/&gt;
+  &lt;Prop name="Caption" value=""/&gt;
+  &lt;Prop name="Hidden" value="0"/&gt;
+  &lt;Prop name="ReadOnly" value="0"/&gt;
+  &lt;Prop name="DataWidth" value="255"/&gt;
+  &lt;Prop name="AllowSizing" value="1"/&gt;
+  &lt;Prop name="AllowFocus" value="1"/&gt;
+  &lt;Prop name="FetchCellStyle" value="0"/&gt;
+  &lt;Prop name="Frozen" value="0"/&gt;
+  &lt;Prop name="SortOrder" value="0"/&gt;
+  &lt;Prop name="SortType" value="0"/&gt;
+  &lt;Prop name="MergeCells" value="0"/&gt;
+  &lt;Prop name="MaskEdit" value=""/&gt;
+  &lt;Prop name="MaskDataMode" value="0"/&gt;
+  &lt;Control&gt;
+   &lt;Prop name="Type" value="0"/&gt;
+   &lt;Prop name="Width" value="-1"/&gt;
+   &lt;Prop name="Height" value="1000"/&gt;
+   &lt;Prop name="PopupRows" value="0"/&gt;
+   &lt;Prop name="AutoOpen" value="0"/&gt;
+   &lt;Prop name="PopupAlign" value="1"/&gt;
+   &lt;Prop name="BtnAlign" value="1"/&gt;
+   &lt;Prop name="ShowButton" value="0"/&gt;
+   &lt;Prop name="SortOrder" value="1"/&gt;
+   &lt;Prop name="ItemHeight" value="-1"/&gt;
+  &lt;/Control&gt;
+  &lt;ColumnStyle name=""&gt;
+   &lt;StyleData&gt;
+    &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;/StyleData&gt;
+  &lt;/ColumnStyle&gt;
+ &lt;/Column&gt;
+&lt;/Columns&gt;
+</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ValueItems</NAME>
+    <VALUE>&lt;ValueItemsCollection&gt;
+ &lt;ValueItems key="Col0"&gt;
+  &lt;ValueItemsData translate="1" limit="0" default="-1" cycle="0"&gt;
+   &lt;Item&gt;
+    &lt;Prop name="Order" value="0"/&gt;
+    &lt;Prop name="Value" type="8" value="-4"/&gt;
+    &lt;Prop name="Display" type="0" value=""/&gt;
+    &lt;Prop name="Picture" value="" type="2" index="32786"/&gt;
+   &lt;/Item&gt;
+   &lt;Item&gt;
+    &lt;Prop name="Order" value="1"/&gt;
+    &lt;Prop name="Value" type="8" value="-3"/&gt;
+    &lt;Prop name="Display" type="0" value=""/&gt;
+    &lt;Prop name="Picture" value="" type="2" index="32772"/&gt;
+   &lt;/Item&gt;
+   &lt;Item&gt;
+    &lt;Prop name="Order" value="2"/&gt;
+    &lt;Prop name="Value" type="8" value="-2"/&gt;
+    &lt;Prop name="Display" type="0" value=""/&gt;
+    &lt;Prop name="Picture" value="" type="2" index="32773"/&gt;
+   &lt;/Item&gt;
+   &lt;Item&gt;
+    &lt;Prop name="Order" value="3"/&gt;
+    &lt;Prop name="Value" type="8" value="-5"/&gt;
+    &lt;Prop name="Display" type="0" value=""/&gt;
+    &lt;Prop name="Picture" value="" type="2" index="32775"/&gt;
+   &lt;/Item&gt;
+  &lt;/ValueItemsData&gt;
+ &lt;/ValueItems&gt;
+&lt;/ValueItemsCollection&gt;
+</VALUE>
+   </PROPERTY>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.CommandButton</CLASS>
+  <NAME>btnA19a</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>ÐñïóèÞêç íÝïõ ôýðïõ ôïìÝá êôéñßïõ</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>375</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>-72480</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>30</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>2880</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>3000</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>Click</NAME>
+     <HANDLERNAME>btnA19a_Click</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>BeeGridOLEDB10.SGGrid</CLASS>
+  <NAME>dgA19</NAME>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>2055</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>-74520</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>29</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>720</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>7335</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_cx</NAME>
+    <VALUE>12938</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_cy</NAME>
+    <VALUE>3625</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataMember</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataMode</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoFields</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Enabled</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>GridBorderStyle</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ScrollBars</NAME>
+    <VALUE>3</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FlatScrollBars</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ScrollBarTrack</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataRowCount</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingFont</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataColCount</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingRowCount</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingColCount</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TextAlignment</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>WordWrap</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Ellipsis</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingBackColor</NAME>
+    <VALUE>-2147483633</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingForeColor</NAME>
+    <VALUE>-2147483630</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingTextAlignment</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingWordWrap</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingEllipsis</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>GridLines</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingGridLines</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>GridLinesColor</NAME>
+    <VALUE>-2147483633</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HeadingGridLinesColor</NAME>
+    <VALUE>-2147483632</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>EvenOddStyle</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ColorEven</NAME>
+    <VALUE>-2147483628</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ColorOdd</NAME>
+    <VALUE>-2147483624</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>UserResizeAnimate</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>UserResizing</NAME>
+    <VALUE>3</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>RowHeightMin</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>RowHeightMax</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ColWidthMin</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ColWidthMax</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>UserDragging</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>UserHiding</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellPadding</NAME>
+    <VALUE>15</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellBkgStyle</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellBackColor</NAME>
+    <VALUE>-2147483643</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellForeColor</NAME>
+    <VALUE>-2147483640</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FocusRect</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FocusRectColor</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FocusRectLineWidth</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabKeyBehavior</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>EnterKeyBehavior</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>NavigationWrapMode</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>SkipReadOnly</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DefaultColWidth</NAME>
+    <VALUE>1200</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DefaultRowHeight</NAME>
+    <VALUE>255</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellsBorderColor</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellsBorderVisible</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>RowNumbering</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>EqualRowHeight</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>EqualColWidth</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HScrollHeight</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>VScrollWidth</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Format</NAME>
+    <VALUE>General</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Appearance</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FitLastColumn</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>SelectionMode</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>MultiSelect</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AllowAddNew</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AllowDelete</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AllowEdit</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ScrollBarTips</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellTips</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CellTipsDelay</NAME>
+    <VALUE>1000</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>SpecialMode</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>OutlineLines</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CacheAllRecords</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ColumnClickSort</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>PreviewPaneColumn</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>PreviewPaneType</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>PreviewPanePosition</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>PreviewPaneSize</NAME>
+    <VALUE>2000</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>GroupIndentation</NAME>
+    <VALUE>225</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>InactiveSelection</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoScroll</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoResize</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoResizeHeadings</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>OLEDragMode</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>OLEDropMode</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ScrollTipColumn</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>MaxRows</NAME>
+    <VALUE>1024</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>MaxColumns</NAME>
+    <VALUE>12</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>NewRowPos</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CustomBkgDraw</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoGroup</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>GroupByBoxVisible</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>GroupByBoxText</NAME>
+    <VALUE>Drag a column header here to group by that column</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AlphaBlendEnabled</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DragAlphaLevel</NAME>
+    <VALUE>206</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoSearch</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>AutoSearchDelay</NAME>
+    <VALUE>2000</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>StylesCollection</NAME>
+    <VALUE>&lt;Styles&gt;
+ &lt;Style name="Caption"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Heading"/&gt;
+   &lt;Prop name="TextAlignment" value="5"/&gt;
+   &lt;Prop name="LineStyle" value="2"/&gt;
+   &lt;Prop name="CellBorder" value="0"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="CurrentCell"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="CurrentRow"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="CurrentRow"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="FilteredRow"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483633"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="Frozen"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="BackColor" value="15195094"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="GridBackground"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483640"/&gt;
+   &lt;Prop name="BackColor" value="-2147483636"/&gt;
+   &lt;Prop name="LineStyle" value="0"/&gt;
+   &lt;Prop name="EvenOddStyle" value="0"/&gt;
+   &lt;Prop name="CellPadding" value="0"/&gt;
+   &lt;Prop name="CellBorderSize" value="0"/&gt;
+   &lt;Prop name="CellBorderColor" value="0"/&gt;
+   &lt;Prop name="CellBorder" value="0"/&gt;
+   &lt;Prop name="CustomDrawStage" value="0"/&gt;
+   &lt;Prop name="AlphaBorder" value="255"/&gt;
+   &lt;Prop name="AlphaBkg" value="255"/&gt;
+   &lt;Prop name="AlphaBkgPicture" value="255"/&gt;
+   &lt;Prop name="AlphaContent" value="255"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="GroupByBox"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483633"/&gt;
+   &lt;Prop name="BackColor" value="10592673"/&gt;
+   &lt;Prop name="GridLineColor" value="-2147483640"/&gt;
+   &lt;Prop name="TextAlignment" value="4"/&gt;
+   &lt;Prop name="WordWrap" value="0"/&gt;
+   &lt;Prop name="LineStyle" value="0"/&gt;
+   &lt;Prop name="CellPadding" value="65"/&gt;
+   &lt;Prop name="CellBorderColor" value="0"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="GroupByBoxCell"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="GroupFooter"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483630"/&gt;
+   &lt;Prop name="BackColor" value="14737632"/&gt;
+   &lt;Prop name="GridLineColor" value="-2147483640"/&gt;
+   &lt;Prop name="TextAlignment" value="4"/&gt;
+   &lt;Prop name="WordWrap" value="-1"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="GroupHeader"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483630"/&gt;
+   &lt;Prop name="BackColor" value="-2147483633"/&gt;
+   &lt;Prop name="GridLineColor" value="-2147483640"/&gt;
+   &lt;Prop name="TextAlignment" value="4"/&gt;
+   &lt;Prop name="WordWrap" value="-1"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="Heading"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483630"/&gt;
+   &lt;Prop name="BackColor" value="-2147483633"/&gt;
+   &lt;Prop name="GridLineColor" value="-2147483632"/&gt;
+   &lt;Prop name="BkgStyle" value="1"/&gt;
+   &lt;Prop name="TextAlignment" value="0"/&gt;
+   &lt;Prop name="WordWrap" value="0"/&gt;
+   &lt;Prop name="Ellipsis" value="1"/&gt;
+   &lt;Prop name="LineStyle" value="2"/&gt;
+   &lt;Prop name="EvenOddStyle" value="0"/&gt;
+   &lt;Prop name="CellBorderSize" value="0"/&gt;
+   &lt;Prop name="CellBorder" value="0"/&gt;
+   &lt;Prop name="DisplayType" value="1"/&gt;
+   &lt;Prop name="Appearance" value="2"/&gt;
+   &lt;Font&gt;
+    &lt;Prop name="Name" value="MS Sans Serif"/&gt;
+    &lt;Prop name="Size" value="0;78000"/&gt;
+    &lt;Prop name="Bold" value="0"/&gt;
+    &lt;Prop name="Italic" value="0"/&gt;
+    &lt;Prop name="Underline" value="0"/&gt;
+    &lt;Prop name="Strikethrough" value="0"/&gt;
+    &lt;Prop name="Weight" value="400"/&gt;
+    &lt;Prop name="Charset" value="161"/&gt;
+   &lt;/Font&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="InactiveSelection"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Selection"/&gt;
+   &lt;Prop name="BackColor" value="-2147483645"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="Normal"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value=""/&gt;
+   &lt;Prop name="ForeColor" value="-2147483640"/&gt;
+   &lt;Prop name="BackColor" value="-2147483643"/&gt;
+   &lt;Prop name="BackColor2" value="-2147483643"/&gt;
+   &lt;Prop name="HighlightColor" value="-2147483628"/&gt;
+   &lt;Prop name="ShadowColor" value="-2147483632"/&gt;
+   &lt;Prop name="GridLineColor" value="-2147483633"/&gt;
+   &lt;Prop name="BkgStyle" value="1"/&gt;
+   &lt;Prop name="TextAlignment" value="0"/&gt;
+   &lt;Prop name="WordWrap" value="0"/&gt;
+   &lt;Prop name="Ellipsis" value="1"/&gt;
+   &lt;Prop name="LineStyle" value="1"/&gt;
+   &lt;Prop name="EvenOddStyle" value="0"/&gt;
+   &lt;Prop name="EvenColor" value="-2147483628"/&gt;
+   &lt;Prop name="OddColor" value="-2147483624"/&gt;
+   &lt;Prop name="CellPadding" value="15"/&gt;
+   &lt;Prop name="CellBorderSize" value="0"/&gt;
+   &lt;Prop name="CellBorderStyle" value="1"/&gt;
+   &lt;Prop name="CellBorderColor" value="-2147483643"/&gt;
+   &lt;Prop name="CellBorder" value="0"/&gt;
+   &lt;Prop name="DisplayType" value="0"/&gt;
+   &lt;Prop name="TabKeyBehavior" value="0"/&gt;
+   &lt;Prop name="EnterKeyBehavior" value="0"/&gt;
+   &lt;Prop name="Appearance" value="2"/&gt;
+   &lt;Prop name="Radix" value="10"/&gt;
+   &lt;Prop name="Format" value="General"/&gt;
+   &lt;Prop name="PictAlignment" value="3"/&gt;
+   &lt;Prop name="CustomDrawStage" value="0"/&gt;
+   &lt;Prop name="AlphaBorder" value="255"/&gt;
+   &lt;Prop name="AlphaBkg" value="255"/&gt;
+   &lt;Prop name="AlphaBkgPicture" value="255"/&gt;
+   &lt;Prop name="AlphaContent" value="255"/&gt;
+   &lt;Prop name="MousePointer" value="0"/&gt;
+   &lt;Prop name="BkgPictAlignment" value="9"/&gt;
+   &lt;Font&gt;
+    &lt;Prop name="Name" value="MS Sans Serif"/&gt;
+    &lt;Prop name="Size" value="0;78000"/&gt;
+    &lt;Prop name="Bold" value="0"/&gt;
+    &lt;Prop name="Italic" value="0"/&gt;
+    &lt;Prop name="Underline" value="0"/&gt;
+    &lt;Prop name="Strikethrough" value="0"/&gt;
+    &lt;Prop name="Weight" value="400"/&gt;
+    &lt;Prop name="Charset" value="161"/&gt;
+   &lt;/Font&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="PreviewPane"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="LineStyle" value="0"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="Selection"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483634"/&gt;
+   &lt;Prop name="BackColor" value="-2147483635"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+ &lt;Style name="Tip"&gt;
+  &lt;StyleData&gt;
+   &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;Prop name="ForeColor" value="-2147483625"/&gt;
+   &lt;Prop name="BackColor" value="-2147483624"/&gt;
+   &lt;Prop name="BkgStyle" value="1"/&gt;
+   &lt;Prop name="TextAlignment" value="4"/&gt;
+   &lt;Prop name="LineStyle" value="0"/&gt;
+   &lt;Prop name="CellPadding" value="18"/&gt;
+   &lt;Prop name="CellBorderSize" value="0"/&gt;
+   &lt;Prop name="CellBorderStyle" value="1"/&gt;
+   &lt;Prop name="CellBorderColor" value="-2147483625"/&gt;
+   &lt;Prop name="CellBorder" value="0"/&gt;
+   &lt;Prop name="Appearance" value="1"/&gt;
+   &lt;Prop name="Format" value=""/&gt;
+   &lt;Prop name="AlphaBorder" value="255"/&gt;
+   &lt;Prop name="AlphaBkg" value="255"/&gt;
+   &lt;Prop name="AlphaBkgPicture" value="255"/&gt;
+   &lt;Prop name="AlphaContent" value="255"/&gt;
+  &lt;/StyleData&gt;
+ &lt;/Style&gt;
+&lt;/Styles&gt;
+</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ColumnsCollection</NAME>
+    <VALUE>&lt;Columns headCols="1"&gt;
+ &lt;Column key="Col0"&gt;
+  &lt;Prop name="DBFiled" value=""/&gt;
+  &lt;Prop name="DataType" value="8"/&gt;
+  &lt;Prop name="Width" value="264"/&gt;
+  &lt;Prop name="Caption" value=""/&gt;
+  &lt;Prop name="Hidden" value="0"/&gt;
+  &lt;Prop name="ReadOnly" value="0"/&gt;
+  &lt;Prop name="DataWidth" value="255"/&gt;
+  &lt;Prop name="AllowSizing" value="1"/&gt;
+  &lt;Prop name="AllowFocus" value="1"/&gt;
+  &lt;Prop name="FetchCellStyle" value="0"/&gt;
+  &lt;Prop name="Frozen" value="0"/&gt;
+  &lt;Prop name="SortOrder" value="0"/&gt;
+  &lt;Prop name="SortType" value="0"/&gt;
+  &lt;Prop name="MergeCells" value="0"/&gt;
+  &lt;Prop name="MaskEdit" value=""/&gt;
+  &lt;Prop name="MaskDataMode" value="0"/&gt;
+  &lt;Control&gt;
+   &lt;Prop name="Type" value="0"/&gt;
+   &lt;Prop name="Width" value="-1"/&gt;
+   &lt;Prop name="Height" value="1000"/&gt;
+   &lt;Prop name="PopupRows" value="0"/&gt;
+   &lt;Prop name="AutoOpen" value="0"/&gt;
+   &lt;Prop name="PopupAlign" value="1"/&gt;
+   &lt;Prop name="BtnAlign" value="1"/&gt;
+   &lt;Prop name="ShowButton" value="0"/&gt;
+   &lt;Prop name="SortOrder" value="1"/&gt;
+   &lt;Prop name="ItemHeight" value="-1"/&gt;
+  &lt;/Control&gt;
+  &lt;ColumnStyle name=""&gt;
+   &lt;StyleData&gt;
+    &lt;Prop name="BasedOn" value="Heading"/&gt;
+    &lt;Prop name="TextAlignment" value="4"/&gt;
+    &lt;Prop name="PictAlignment" value="5"/&gt;
+   &lt;/StyleData&gt;
+  &lt;/ColumnStyle&gt;
+ &lt;/Column&gt;
+ &lt;Column key="Field0"&gt;
+  &lt;Prop name="DBFiled" value="Field0.0"/&gt;
+  &lt;Prop name="DataType" value="8"/&gt;
+  &lt;Prop name="Width" value="1200"/&gt;
+  &lt;Prop name="Caption" value=""/&gt;
+  &lt;Prop name="Hidden" value="0"/&gt;
+  &lt;Prop name="ReadOnly" value="0"/&gt;
+  &lt;Prop name="DataWidth" value="255"/&gt;
+  &lt;Prop name="AllowSizing" value="1"/&gt;
+  &lt;Prop name="AllowFocus" value="1"/&gt;
+  &lt;Prop name="FetchCellStyle" value="0"/&gt;
+  &lt;Prop name="Frozen" value="0"/&gt;
+  &lt;Prop name="SortOrder" value="0"/&gt;
+  &lt;Prop name="SortType" value="0"/&gt;
+  &lt;Prop name="MergeCells" value="0"/&gt;
+  &lt;Prop name="MaskEdit" value=""/&gt;
+  &lt;Prop name="MaskDataMode" value="0"/&gt;
+  &lt;Control&gt;
+   &lt;Prop name="Type" value="0"/&gt;
+   &lt;Prop name="Width" value="-1"/&gt;
+   &lt;Prop name="Height" value="1000"/&gt;
+   &lt;Prop name="PopupRows" value="0"/&gt;
+   &lt;Prop name="AutoOpen" value="0"/&gt;
+   &lt;Prop name="PopupAlign" value="1"/&gt;
+   &lt;Prop name="BtnAlign" value="1"/&gt;
+   &lt;Prop name="ShowButton" value="0"/&gt;
+   &lt;Prop name="SortOrder" value="1"/&gt;
+   &lt;Prop name="ItemHeight" value="-1"/&gt;
+  &lt;/Control&gt;
+  &lt;ColumnStyle name=""&gt;
+   &lt;StyleData&gt;
+    &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;/StyleData&gt;
+  &lt;/ColumnStyle&gt;
+ &lt;/Column&gt;
+ &lt;Column key="Field1"&gt;
+  &lt;Prop name="DBFiled" value="Field1.1"/&gt;
+  &lt;Prop name="DataType" value="8"/&gt;
+  &lt;Prop name="Width" value="1200"/&gt;
+  &lt;Prop name="Caption" value=""/&gt;
+  &lt;Prop name="Hidden" value="0"/&gt;
+  &lt;Prop name="ReadOnly" value="0"/&gt;
+  &lt;Prop name="DataWidth" value="255"/&gt;
+  &lt;Prop name="AllowSizing" value="1"/&gt;
+  &lt;Prop name="AllowFocus" value="1"/&gt;
+  &lt;Prop name="FetchCellStyle" value="0"/&gt;
+  &lt;Prop name="Frozen" value="0"/&gt;
+  &lt;Prop name="SortOrder" value="0"/&gt;
+  &lt;Prop name="SortType" value="0"/&gt;
+  &lt;Prop name="MergeCells" value="0"/&gt;
+  &lt;Prop name="MaskEdit" value=""/&gt;
+  &lt;Prop name="MaskDataMode" value="0"/&gt;
+  &lt;Control&gt;
+   &lt;Prop name="Type" value="0"/&gt;
+   &lt;Prop name="Width" value="-1"/&gt;
+   &lt;Prop name="Height" value="1000"/&gt;
+   &lt;Prop name="PopupRows" value="0"/&gt;
+   &lt;Prop name="AutoOpen" value="0"/&gt;
+   &lt;Prop name="PopupAlign" value="1"/&gt;
+   &lt;Prop name="BtnAlign" value="1"/&gt;
+   &lt;Prop name="ShowButton" value="0"/&gt;
+   &lt;Prop name="SortOrder" value="1"/&gt;
+   &lt;Prop name="ItemHeight" value="-1"/&gt;
+  &lt;/Control&gt;
+  &lt;ColumnStyle name=""&gt;
+   &lt;StyleData&gt;
+    &lt;Prop name="BasedOn" value="Normal"/&gt;
+   &lt;/StyleData&gt;
+  &lt;/ColumnStyle&gt;
+ &lt;/Column&gt;
+&lt;/Columns&gt;
+</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ValueItems</NAME>
+    <VALUE>&lt;ValueItemsCollection&gt;
+ &lt;ValueItems key="Col0"&gt;
+  &lt;ValueItemsData translate="1" limit="0" default="-1" cycle="0"&gt;
+   &lt;Item&gt;
+    &lt;Prop name="Order" value="0"/&gt;
+    &lt;Prop name="Value" type="8" value="-4"/&gt;
+    &lt;Prop name="Display" type="0" value=""/&gt;
+    &lt;Prop name="Picture" value="" type="2" index="32786"/&gt;
+   &lt;/Item&gt;
+   &lt;Item&gt;
+    &lt;Prop name="Order" value="1"/&gt;
+    &lt;Prop name="Value" type="8" value="-3"/&gt;
+    &lt;Prop name="Display" type="0" value=""/&gt;
+    &lt;Prop name="Picture" value="" type="2" index="32772"/&gt;
+   &lt;/Item&gt;
+   &lt;Item&gt;
+    &lt;Prop name="Order" value="2"/&gt;
+    &lt;Prop name="Value" type="8" value="-2"/&gt;
+    &lt;Prop name="Display" type="0" value=""/&gt;
+    &lt;Prop name="Picture" value="" type="2" index="32773"/&gt;
+   &lt;/Item&gt;
+   &lt;Item&gt;
+    &lt;Prop name="Order" value="3"/&gt;
+    &lt;Prop name="Value" type="8" value="-5"/&gt;
+    &lt;Prop name="Display" type="0" value=""/&gt;
+    &lt;Prop name="Picture" value="" type="2" index="32775"/&gt;
+   &lt;/Item&gt;
+  &lt;/ValueItemsData&gt;
+ &lt;/ValueItems&gt;
+&lt;/ValueItemsCollection&gt;
+</VALUE>
+   </PROPERTY>
+ </COMPONENT>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.Frame</CLASS>
+  <NAME>frmA18</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>Á.18. ÊáôÜ ôï ðñïçãïýìåíï ó÷ïëéêü Ýôïò Ýãéíå óõíôÞñçóç óôï êôßñéï;</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>735</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>22</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>2640</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>9972</VALUE>
+   </PROPERTY>
+ <COMPONENT>
+  <CLASS>MSDataListLib.DataCombo</CLASS>
+  <NAME>dcA18a</NAME>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>330</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>23</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>2655</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_ExtentX</NAME>
+    <VALUE>4678</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_ExtentY</NAME>
+    <VALUE>508</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_Version</NAME>
+    <VALUE>393216</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Style</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Text</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.TextBox</CLASS>
+  <NAME>txtA18b</NAME>
+   <PROPERTY>
+    <NAME>DataField</NAME>
+    <VALUE>MANDATORY_MAINTENANCE</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataSource</NAME>
+    <VALUE>recordNavigator</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>285</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>7200</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>MaxLength</NAME>
+    <VALUE>100</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>25</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>2655</VALUE>
+   </PROPERTY>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.Label</CLASS>
+  <NAME>lblA18b</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>ÁíáöÝñáôå ôï åßäïò ôçò óõíôÞñçóçò ðïõ Þôáí áíáãêáßá:</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>372</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>3120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>24</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>3972</VALUE>
+   </PROPERTY>
+ </COMPONENT>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.Frame</CLASS>
+  <NAME>frmA16</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>Á.16. Ç áðÜíôçóç óôçí ðñïçãïýìåíç åñþôçóç äüèçêå:</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>615</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>5160</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>19</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>1920</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>4935</VALUE>
+   </PROPERTY>
+ <COMPONENT>
+  <CLASS>VB.OptionButton</CLASS>
+  <NAME>rbA16b</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>2. Ìå áêñéâÞ ìÝôñçóç</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>252</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>2160</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>21</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>2292</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>Click</NAME>
+     <HANDLERNAME>rbA16b_Click</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.OptionButton</CLASS>
+  <NAME>rbA16a</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>1. Êáô' åêôßìçóç</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>195</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>20</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>1812</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>Click</NAME>
+     <HANDLERNAME>rbA16a_Click</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.Frame</CLASS>
+  <NAME>frmA15</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>Á.15. Ðüóç åßíáé ç óõíïëéêÞ åðéöÜíåéá ôïõ êôéñßïõ óå ô.ì.;</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>615</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>16</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>1920</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>4932</VALUE>
+   </PROPERTY>
+ <COMPONENT>
+  <CLASS>VB.TextBox</CLASS>
+  <NAME>txtA15</NAME>
+   <PROPERTY>
+    <NAME>DataField</NAME>
+    <VALUE>SIZE_IN_SQ</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataFormat</NAME>
+   <PROPERTY>
+    <NAME>Type</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Format</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HaveTrueFalseNull</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FirstDayOfWeek</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FirstWeekOfYear</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>LCID</NAME>
+    <VALUE>1032</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>SubFormatType</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataSource</NAME>
+    <VALUE>recordNavigator</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>285</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>840</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>17</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>210</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>615</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>ValidateCancel</NAME>
+     <HANDLERNAME>txtA15_ValidateCancel</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.Label</CLASS>
+  <NAME>lblA15</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>ô.ì.</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>255</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>1560</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>18</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>255</VALUE>
+   </PROPERTY>
+ </COMPONENT>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.Frame</CLASS>
+  <NAME>frmA14</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>Á.14. Ðüóïõò ïñüöïõò Ý÷åé ôï êôßñéï (ìáæß ìå ôï éóüãåéï);</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>615</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>5160</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>12</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>1200</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>4935</VALUE>
+   </PROPERTY>
+ <COMPONENT>
+  <CLASS>VB.CheckBox</CLASS>
+  <NAME>cbA14b</NAME>
+   <PROPERTY>
+    <NAME>Alignment</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>2. ÕðÜñ÷åé õðüãåéï;</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataField</NAME>
+    <VALUE>BASEMENT</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataSource</NAME>
+    <VALUE>recordNavigator</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>195</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>2520</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>15</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>1812</VALUE>
+   </PROPERTY>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.TextBox</CLASS>
+  <NAME>txtA14a</NAME>
+   <PROPERTY>
+    <NAME>DataField</NAME>
+    <VALUE>NUMBER_OF_FLOORS</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataSource</NAME>
+    <VALUE>recordNavigator</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>285</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>1800</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>14</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>372</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>ValidateCancel</NAME>
+     <HANDLERNAME>txtA14a_ValidateCancel</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.Label</CLASS>
+  <NAME>lblA14a</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>1. Áñéèìüò ïñüöùí:</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>255</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>13</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>1695</VALUE>
+   </PROPERTY>
+ </COMPONENT>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.Frame</CLASS>
+  <NAME>frmA13</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>Á.13. Ðïéïò Þôáí ï áñ÷éêüò ðñïïñéóìüò ôïõ êôéñßïõ;</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>615</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>9</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>1200</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>4932</VALUE>
+   </PROPERTY>
+ <COMPONENT>
+  <CLASS>MSDataListLib.DataCombo</CLASS>
+  <NAME>dcA13</NAME>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>330</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>10</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>2775</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_ExtentX</NAME>
+    <VALUE>4890</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_ExtentY</NAME>
+    <VALUE>508</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_Version</NAME>
+    <VALUE>393216</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Text</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.CommandButton</CLASS>
+  <NAME>btnA13</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>...</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>700</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>300</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>3120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>11</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ToolTipText</NAME>
+    <VALUE>ÐñïóèÞêç íÝïõ áñ÷éêïý ðñïïñéóìïý êôéñßïõ</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>375</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>Click</NAME>
+     <HANDLERNAME>btnA13_Click</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.Frame</CLASS>
+  <NAME>frmA12</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>Á.12. Ðüôå êôßóôçêå ôï êôßñéï;</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>975</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>5160</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>5</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>4935</VALUE>
+   </PROPERTY>
+ <COMPONENT>
+  <CLASS>MSDataListLib.DataCombo</CLASS>
+  <NAME>dcA12a</NAME>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>330</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>6</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>3015</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_ExtentX</NAME>
+    <VALUE>5313</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_ExtentY</NAME>
+    <VALUE>508</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_Version</NAME>
+    <VALUE>393216</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Style</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Text</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.TextBox</CLASS>
+  <NAME>txtA12b</NAME>
+   <PROPERTY>
+    <NAME>DataField</NAME>
+    <VALUE>YEAR_OF_BUILDING</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataFormat</NAME>
+   <PROPERTY>
+    <NAME>Type</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Format</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>HaveTrueFalseNull</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FirstDayOfWeek</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>FirstWeekOfYear</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>LCID</NAME>
+    <VALUE>1032</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>SubFormatType</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataSource</NAME>
+    <VALUE>recordNavigator</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>315</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>2160</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>600</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>975</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>ValidateCancel</NAME>
+     <HANDLERNAME>txtA12b_ValidateCancel</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.Label</CLASS>
+  <NAME>lblA12b</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>Ðïéï Ýôïò; (ðñïáéñåôéêÜ)</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>255</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>7</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>600</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>1935</VALUE>
+   </PROPERTY>
+ </COMPONENT>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.Frame</CLASS>
+  <NAME>frmA11</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>Á.11 ôï êôßñéï åßíáé:</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>975</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>4932</VALUE>
+   </PROPERTY>
+ <COMPONENT>
+  <CLASS>MSDataListLib.DataCombo</CLASS>
+  <NAME>dcA11a</NAME>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>330</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>2775</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_ExtentX</NAME>
+    <VALUE>4890</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_ExtentY</NAME>
+    <VALUE>508</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_Version</NAME>
+    <VALUE>393216</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Style</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Text</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>Clickarea</NAME>
+     <HANDLERNAME>dcA11a_Clickarea</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.CommandButton</CLASS>
+  <NAME>btnA11a</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>...</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>700</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>300</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>3120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>2</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ToolTipText</NAME>
+    <VALUE>ÐñïóèÞêç íÝïõ ôýðïõ èÝñìáíóçò</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>375</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>Click</NAME>
+     <HANDLERNAME>btnA11a_Click</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.TextBox</CLASS>
+  <NAME>txtA11b</NAME>
+   <PROPERTY>
+    <NAME>DataField</NAME>
+    <VALUE>ALLOTMENT_BY</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataSource</NAME>
+    <VALUE>recordNavigator</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>285</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>3000</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>MaxLength</NAME>
+    <VALUE>80</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>600</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>1692</VALUE>
+   </PROPERTY>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>VB.Label</CLASS>
+  <NAME>lblA11b</NAME>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE>Áí åßíáé ðáñá÷þñçóç, áðü ðïéüí;</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>Arial</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>8.4</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>252</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>240</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>TabIndex</NAME>
+    <VALUE>3</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>600</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>2652</VALUE>
+   </PROPERTY>
+ </COMPONENT>
+ </COMPONENT>
+ <COMPONENT>
+  <CLASS>MSAdodcLib.Adodc</CLASS>
+  <NAME>recordNavigator</NAME>
+   <PROPERTY>
+    <NAME>Height</NAME>
+    <VALUE>336</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Left</NAME>
+    <VALUE>120</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Top</NAME>
+    <VALUE>7080</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Width</NAME>
+    <VALUE>3732</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_ExtentX</NAME>
+    <VALUE>6583</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_ExtentY</NAME>
+    <VALUE>572</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ConnectMode</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CursorLocation</NAME>
+    <VALUE>3</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>IsolationLevel</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ConnectionTimeout</NAME>
+    <VALUE>15</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CommandTimeout</NAME>
+    <VALUE>30</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CursorType</NAME>
+    <VALUE>3</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>LockType</NAME>
+    <VALUE>3</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CommandType</NAME>
+    <VALUE>8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CursorOptions</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>CacheSize</NAME>
+    <VALUE>50</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>MaxRecords</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>BOFAction</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>EOFAction</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ConnectStringType</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Appearance</NAME>
+    <VALUE>1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>BackColor</NAME>
+    <VALUE>-2147483643</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>ForeColor</NAME>
+    <VALUE>-2147483640</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Orientation</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Enabled</NAME>
+    <VALUE>-1</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Connect</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>OLEDBString</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>OLEDBFile</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>DataSourceName</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>OtherAttributes</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>UserName</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Password</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>RecordSource</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Caption</NAME>
+    <VALUE></VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Font</NAME>
+   <PROPERTY>
+    <NAME>Name</NAME>
+    <VALUE>MS Sans Serif</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Size</NAME>
+    <VALUE>7.8</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Charset</NAME>
+    <VALUE>161</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Weight</NAME>
+    <VALUE>400</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Underline</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Italic</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>Strikethrough</NAME>
+    <VALUE>0</VALUE>
+   </PROPERTY>
+   </PROPERTY>
+   <PROPERTY>
+    <NAME>_Version</NAME>
+    <VALUE>393216</VALUE>
+   </PROPERTY>
+    <EVENTS>
+    <EVENT>
+     <NAME>MoveComplete</NAME>
+     <HANDLERNAME>recordNavigator_MoveComplete</HANDLERNAME>
+    </EVENT>
+    </EVENTS>
+ </COMPONENT>
+ </COMPONENT>
+  <ATTRIBUTE>
+   <NAME>VB_Name</NAME>
+   <VALUE>"building"</VALUE>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+   <NAME>VB_GlobalNameSpace</NAME>
+   <VALUE>False</VALUE>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+   <NAME>VB_Creatable</NAME>
+   <VALUE>False</VALUE>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+   <NAME>VB_PredeclaredId</NAME>
+   <VALUE>True</VALUE>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+   <NAME>VB_Exposed</NAME>
+   <VALUE>False</VALUE>
+  </ATTRIBUTE>
+</VBFORM>

@@ -1,0 +1,1 @@
+type test.frm | VBFormCodeFilter > test.bas.txt

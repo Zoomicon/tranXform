@@ -1,8 +1,7 @@
 (*******************************************************************
  XSLer - transform an XML file using an XSL stylesheet
- (C)2001 George Birbilis <birbilis@kagi.com>
- Agrinio Club (http://visitweb.com/AgrinioClub)
- Version: 13Sep2001
+ (C)2001-2018 George Birbilis (http://zoomicon.com)
+ Version: 4Feb2018
 
  Command line tool that takes 3 params: XMLfile XSLfile outputFile
  XMLFile and XSLfile paths are either absolute, or else relative to the current folder, 
@@ -107,8 +106,8 @@ begin
   stmString:=TStringStream.Create(sOutput);
   stmOut.CopyFrom(stmString, 0);
  finally
-  stmOut.Free; //may see a warning here that "Variable 'stmOut' might have not been initialized" (shouldn't show that warning: Free is a static class method)
-  stmString.Free; //may see a warning here that "Variable 'stmString' might have not been initialized" (shouldn't show that warning: Free is a static class method)
+  if (stmOut <> nil) then stmOut.Free;
+  if (stmString <> nil) then stmString.Free;
  end;
 end;
 

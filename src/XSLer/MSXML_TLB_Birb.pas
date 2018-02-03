@@ -1,4 +1,4 @@
-unit MSXML_TLB_Birb;
+unit MSXML_TLB_Birb; //NOTE: HAND-EDITED USING CLAUSES BELOW (MUST PRESERVE)
 
 // ************************************************************************ //
 // WARNING
@@ -46,7 +46,8 @@ uses Windows,
      //Graphics, //<--if you uncomment this one, you get an 72KB executable instead of a 65KB one
      //StdVcl, //<-- this one doesn't seem to affect the resulting executable's size if uncommented
      Classes,
-     OleServer
+     Vcl.OleServer, //<-- Vcl. prefix needed for Delphi 10.x
+     System.Variants //<-- needed for Delphi 10.x
      //,OleCtrls //<--if you uncomment this one, you get a 299KB executable instead of an 65KB one!!!
      ;
 
